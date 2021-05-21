@@ -1,0 +1,14 @@
+17/04/2021
+- reuse folder: base
+- learn: 
+    slide-show
+- debug slide show: 
+    by cdn JS
+- completed slideshow, about-me section
+
+21/04/2021
+- bug 
+    slideshow + navbar 
+- debug: 
+    slideshow: leak js 
+    navbar: leak js

@@ -1,0 +1,260 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- slide show -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/slideshow.js"></script>
+    <!-- Fontawesome from Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <!-- Bot-nav -->
+        <nav id="myTopnav" style="background-color: #222222;">
+            <ul class="menu  container" >
+                <li class="nav-item"><a href="/HTML/home.html"><img src="/asset/image/logos/logo.svg" style="width: 50px; height: 50px;" alt=""></a></li>
+                <!-- empty -->
+                <li class="logo"><a href=""></a></li>
+
+                <li class="nav-item"><a href="/HTML/home.html">HOME</a></li>
+                <li class="nav-item"><a href="/HTML/design.html">DESIGN</a></li>
+                <li class="nav-item "><a href="/HTML/dev.html">DEV</a></li>
+                <li class="nav-item "><a href="/HTML/about-me.html">ABOUT ME</a></li>
+                <li class="nav-item "><a href="/HTML/thank.html">THANK</a></li>
+                    <!-- <li class="nav-item "><a href="#">Log In</a></li> -->
+                <!-- <li class="nav-item button secondary "><a href="#">Sign Up</a></li> -->
+                <li class="toggle"><a href="#"><i class="bi bi-list"></i></a></li>
+            </ul>
+        </nav>
+    </nav>
+
+    <!-- slideshow -->
+        <!-- build from desktop -> mobile -->
+    <div class="slider-container">
+        <div class="slider-control left inactive"></div>
+        <div class="slider-control right"></div>
+        <ul class="slider-pagi"></ul>
+        <div class="slider">
+            <div class="slide slide-0 active">
+                <div class="slide__bg"></div>
+                <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                    <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <!-- <img src="asset/image/borja-panadero-krilin.jpg" > -->
+                <div class="slide__text">
+                    <h2 class="slide__text-heading">Design</h2> 
+                    <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                    <a class="slide__text-link text-uppercase" href="/HTML/design.html" style="color: white;">See more</a>
+                </div>
+                </div>
+            </div>
+            <div class="slide slide-1 ">
+                <div class="slide__bg"></div>
+                <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                    <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text">
+                    <h2 class="slide__text-heading">Dev</h2>
+                    <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                    <a class="slide__text-link text-uppercase"  href="/HTML/dev.html" style="color: white;">See more</a>
+                </div>
+                </div>
+            </div>
+            <div class="slide slide-2">
+                <div class="slide__bg"></div>
+                <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                    <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text">
+                    <h2 class="slide__text-heading">About me</h2>
+                    <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                    <a class="slide__text-link text-uppercase"  href="/HTML/about-me.html" style="color: white;">See more</a>
+                </div>
+                </div>
+            </div>
+            <div class="slide slide-3">
+                <div class="slide__bg"></div>
+                <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                    <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text">
+                    <h2 class="slide__text-heading">Topics</h2>
+                    <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                    <a class="slide__text-link text-uppercase"  href="/HTML/thank.html" style="color: white;">See more</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about-me section -->
+    <div class="pb-3 pt-5 bg-dark" id="about me">
+        <div class="container-fluid text-light">
+            <div class="text-center pb-5">
+                <h2 class="section__heading text-uppercase">about me</h2>            
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 avatar-circle">
+                    <img src="/asset/home/main-avtar.jpg" class="img-fluid rounded-circle" style="width: 400px; height: 400px;" alt="">
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <h4 class="text-uppercase d-3">Short quote:s</h4>
+                    <blockquote class="mb-5"> With a passion for Programming and a love for technology products, I always don't
+                        stop learning and wish to be able to find a real environment to practice and
+                        rub the knowledge that I have, and at the same time hope to contribute personal value to
+                        the development of the company</blockquote>
+                    <cite style="margin-left: 300px; font-family: 'Comodo';">-- Tô Lễ     05/21/2021 --</cite>
+                </div>   
+            </div>
+        </div>
+    </div>
+
+    <!-- who I am -->
+    <div class="page-section ">
+        <div class="container">
+            <div class="text-center pb-3 ">
+                <h2 class="section__heading text-uppercase">who I am</h2>            
+            </div>
+            <div class="row">
+                <div class="col-md-5 bg-secondary my-5">
+                    <h3 class="mb-4 mt-3 d-3 text-center">Developer</h3>
+                    <img class="img-fluid" src="/asset/home/coding.jpg" alt="">
+                </div>
+                <div class="col-md-2 bg-secondary" style="margin-top: 105px; padding-bottom: -30px; z-index: 3;">
+                    <img class="img-fluid" src="/asset/home/walk.jpg" alt="">
+                </div>
+                <div class="col-md-5 bg-secondary my-5">
+                    <h3 class="mb-4 mt-3  d-3 text-center">Designer</h3>
+                    <img class="img-fluid" src="/asset/home/design.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Overview -->
+    <div class="pagesection py-5" style="background-color: #00D490;">
+        <div class="text-center pb-3 ">
+            <h2 class="section__heading text-uppercase">Overview</h2>            
+        </div>
+        <div class="container">
+            
+            <img src="/asset/home/overview.jpg" alt="" style="max-width: 100%;height:auto;">
+        </div>
+    </div>
+
+    <div class="container page-section text-center">
+        <h4 class="section__subheading d-3">Memorable moments in life</h4>
+        <div class="owl-carousel owl-theme owl-carousel-2 bg-secondary p-5" style="margin-bottom: 0px;">
+            <div class="item card-0">
+                <img src="/asset/home/collection/IMG_0020.JPG" alt="">
+                <h5>‎Friday, ‎February ‎24, ‎2017,</h5>
+                <i class="bi bi-bookmark-plus-fill"></i>            
+            </div>
+            <div class="item card-0">
+                <img src="/asset/home/collection/IMG_0026.JPG" alt="">
+                <h5>‎Tuesday, ‎October ‎25, ‎2016</h5>
+                <i class="bi bi-bookmark-plus-fill"></i>   
+            </div>
+            <div class="item card-0">
+                <img src="/asset/home/collection/IMG_1237.JPG" alt="">
+                <h5>‎Friday, ‎May ‎26, ‎2017,</h5>
+                <i class="bi bi-bookmark-plus-fill"></i>   
+            </div>
+            <div class="item card-0">
+                <img src="/asset/home/collection/IMG_1243.JPG" alt="">
+                <h5>‎Wednesday, ‎May ‎24, ‎2017,</h5>
+                <i class="bi bi-bookmark-plus-fill"></i>   
+            </div>
+            <div class="item card-0">
+                <img src="/asset/home/collection/IMG_1245.JPG" alt="">
+                <h5>‎Thursday, ‎May ‎24, ‎2018</h5>
+                <i class="bi bi-bookmark-plus-fill"></i>   
+            </div>
+            <div class="item card-0">
+                <img src="/asset/home/collection/IMG_E1967.JPG" alt="">
+                <h5>‎Wednesday, ‎December ‎5, ‎2018</h5>   
+                <i class="bi bi-bookmark-plus-fill"></i>   
+            </div>
+        </div>
+    </div>
+    </div>            
+
+    <!-- Footer -->
+    <footer class=" footer bg-dark ">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-4 mb-4" style="text-align: left ;">
+                    <h5 class="text-uppercase d-5">contact: </h5>
+                        <p>
+                            <cite class="text-secondary">Email:</cite>
+                            tosonhieule185@gmail.com.com
+                        </p>
+                        <p>
+                            <cite class="text-secondary">Phone number:</cite>
+                            +84 09999999
+                        <p>
+                            <cite class="text-secondary">Follow me at: </cite>
+                            <a href="https://www.facebook.com/profile.php?id=100009393298857" style="color: pink;"><b>Tô Lễ</b></a>
+                        </p>
+                        <img class="mb-3"  src="/asset/home/qr_code.png" style="width: 80px;height: 80px;" alt="" >
+
+
+
+                        
+                    <h5 class="text-uppercase d-5">subscribe <i class="text-normal">in</i> our news letter</h5>
+                    <!-- subcribe-box -->
+                    <form action="" >
+                        <input type="text" placeholder="Enter Your Email Address" name="search" >
+                        <button class="btn-sm text-uppercase" type="submit">subscribe</button>
+                    </form>
+                    <!-- e-pay -->
+                </div>
+                <div class="col-6 col-lg-3 offset-lg-1 mb-4">
+                    <h5 class="text-uppercase d-5">Design</h5>
+                    <a class="text-secondary" href="#"><p>Personal information</p></a>
+                    <a class="text-secondary" href="#"><p></p>History begin</a>
+                    <a class="text-secondary" href="#"><p></p>Vision & Development</a>
+                    <a class="text-secondary" href="#"><p></p>Terms & Conditions</a>
+                    <a class="text-secondary" href="#"><p></p>Trang cá nhân</a>
+                </div>
+                <div class="col-6 col-lg-3 offset-lg-1 mb-4">
+                    <h5 class="text-uppercase d-5">Dev</h5>
+                    <a class="text-secondary" href="#"><p></p>Latest product</a>
+                    <a class="text-secondary" href="#"><p></p>Featured products</a>
+                    <a class="text-secondary" href="#"><p></p>HOT products</a>
+                    <a class="text-secondary" href="#"><p></p>Selling products</a>
+                    <a class="text-secondary" href="#"><p></p>Regulations on purchasing product copyrights</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="text-center text-secondary__sub py-3"> 
+            © 2021 Portfolio. Designed & Develop by <abbr class="text-danger">ToLe</abbr>
+        </p>
+    </footer>
+
+
+    <script src="/js/navbar.js"></script>
+    <script src="/js/slideshow.js"></script>
+
+    <!-- Carousel -->
+    <!-- jQuery library (note: jQuery should at the first) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="/js/carousel.js"></script>
+</body>
+</html>
